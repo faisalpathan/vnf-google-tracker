@@ -4,14 +4,14 @@ export const polylineColor = '#000';
 
 export const initialPositionSymbol = {
 	path: 'M -2,0 0,-2 2,0 0,2 z',
-	strokeColor: lastPositionColor,
-	fillColor: lastPositionColor,
+	strokeColor: intialPositionColor,
+	fillColor: intialPositionColor,
 	fillOpacity: 1,
 };
 
 export const lastPositionSymbol = {
 	path: 'M -2,-2 2,2 M 2,-2 -2,2',
-	strokeColor: intialPositionColor,
+	strokeColor: lastPositionColor,
 	strokeWeight: 4,
 };
 
